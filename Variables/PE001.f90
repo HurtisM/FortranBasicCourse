@@ -1,11 +1,7 @@
-program variables
-    ! ak vypneme implicit none:
-    ! vsetky premenne zacinajuce  i, j, k, l ,m ,n = integer
-    ! vsetko ostatne = float
+program PE001
+    
     implicit none
-	
-    ! zakladne datove typy integer (vzdy signed), real, character,
-    !logical a complex
+	   
     integer :: sum, start
   
     sum = 0
@@ -27,4 +23,4 @@ program variables
 
     print *, sum
 
-end program variables    
+end program PE001   
